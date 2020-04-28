@@ -1,5 +1,5 @@
 import unittest
 
-def test_sample_single_word():
+def test_sample():
     assert 1 >= 0
 
