@@ -12,7 +12,7 @@ app = Flask(__name__)
 def generate_buzz():
     """generate flask wrapper"""
     page = '<html><body><h1>'
-    page += generator.generate_buzz()
+    page += generator.generate_some_text()
     page += '</h1></body></html>'
     return page
 
